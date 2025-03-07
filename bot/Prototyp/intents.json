@@ -1,0 +1,160 @@
+{
+  "intents": [
+    {
+      "tag": "Text+ Sammlungen",
+      "patterns": [
+        "Was sind Text+ Sammlungen?",
+        "Erzähl mir etwas über Text+ Sammlungen",
+        "Informationen zu Text+ Sammlungen"
+      ],
+      "responses": [
+        "Text+ Sammlungen: Datensätze zu…, Zeitraum: 1900-1913, Aktualisierung: 3x pro Jahr. Beschreibung folgt… Sammlung im Katalog: Kataloglink folgt…",
+        "Die Text+ Sammlungen umfassen Datensätze zu… aus dem Zeitraum 1900-1913. Die Daten werden 3x pro Jahr aktualisiert. Weitere Informationen sind in der Beschreibung und im Kataloglink verfügbar."
+      ]
+    },
+    {
+      "tag": "Sammlung der Deutschen Nationalbibliothek",
+      "patterns": [
+        "Was ist die Sammlung der Deutschen Nationalbibliothek?",
+        "Erzähl mir etwas über die Sammlung der DNB",
+        "Informationen zur Sammlung der DNB"
+      ],
+      "responses": [
+        "Sammlung der Deutschen Nationalbibliothek: Datensätze zu…, Zeitraum: 1915-1920, Aktualisierung: 3x pro Jahr. Beschreibung folgt… Sammlung im Katalog: Kataloglink folgt…",
+        "Die Sammlung der Deutschen Nationalbibliothek umfasst Datensätze zu… aus dem Zeitraum 1915-1920. Die Daten werden 3x pro Jahr aktualisiert. Weitere Informationen sind in der Beschreibung und im Kataloglink verfügbar."
+      ]
+    },
+    {
+      "tag": "Sammlung digitaler Objekte der Deutschen Nationalbibliothek",
+      "patterns": [
+        "Was ist die Sammlung digitaler Objekte der DNB?",
+        "Erzähl mir etwas über die Sammlung digitaler Objekte der DNB",
+        "Informationen zur Sammlung digitaler Objekte der DNB"
+      ],
+      "responses": [
+        "Sammlung digitaler Objekte der Deutschen Nationalbibliothek: Datensätze zu…, Zeitraum: 19:33-1945, Aktualisierung: 3x pro Jahr. Beschreibung folgt… Sammlung im Katalog: Kataloglink folgt…",
+        "Die Sammlung digitaler Objekte der Deutschen Nationalbibliothek umfasst Datensätze zu… aus dem Zeitraum 19:33-1945. Die Daten werden 3x pro Jahr aktualisiert. Weitere Informationen sind in der Beschreibung und im Kataloglink verfügbar."
+      ]
+    },
+    {
+      "tag": "Freie Netzpublikationen",
+      "patterns": [
+        "Was sind Freie Netzpublikationen?",
+        "Erzähl mir etwas über Freie Netzpublikationen",
+        "Informationen zu Freien Netzpublikationen"
+      ],
+      "responses": [
+        "Freie Netzpublikationen: Mehr als 2.323.000 Objekte ohne Zugriffsbeschränkung aus Deutschland. Sammlung im Katalog: Kataloglink folgt…",
+        "Freie Netzpublikationen umfassen mehr als 2.323.000 Objekte ohne Zugriffsbeschränkung aus Deutschland. Weitere Informationen sind im Kataloglink verfügbar."
+      ]
+    },
+    {
+      "tag": "Freie digitale Objekte der Deutschen Nationalbibliothek",
+      "patterns": [
+        "Was sind Freie digitale Objekte der DNB?",
+        "Erzähl mir etwas über Freie digitale Objekte der DNB",
+        "Informationen zu Freien digitalen Objekten der DNB"
+      ],
+      "responses": [
+        "Freie digitale Objekte der Deutschen Nationalbibliothek: Datensätze zu…, Zeitraum: 1915-1920, Aktualisierung: 3x pro Jahr. Beschreibung folgt… Sammlung im Katalog: Kataloglink folgt…",
+        "Freie digitale Objekte der Deutschen Nationalbibliothek umfassen Datensätze zu… aus dem Zeitraum 1915-1920. Die Daten werden 3x pro Jahr aktualisiert. Weitere Informationen sind in der Beschreibung und im Kataloglink verfügbar."
+      ]
+    },
+    {
+      "tag": "Freie Online-Artikel der Deutschen Nationalbibliothek",
+      "patterns": [
+        "Was sind Freie Online-Artikel der DNB?",
+        "Erzähl mir etwas über Freie Online-Artikel der DNB",
+        "Informationen zu Freien Online-Artikeln der DNB"
+      ],
+      "responses": [
+        "Freie Online-Artikel der Deutschen Nationalbibliothek: Datensätze zu…, Zeitraum: 19:33-1945, Aktualisierung: 3x pro Jahr. Beschreibung folgt… Sammlung im Katalog: Kataloglink folgt…",
+        "Freie Online-Artikel der Deutschen Nationalbibliothek umfassen Datensätze zu… aus dem Zeitraum 19:33-1945. Die Daten werden 3x pro Jahr aktualisiert. Weitere Informationen sind in der Beschreibung und im Kataloglink verfügbar."
+      ]
+    },
+    {
+      "tag": "Freie Online-Zeitschriften der Deutschen Nationalbibliothek",
+      "patterns": [
+        "Was sind Freie Online-Zeitschriften der DNB?",
+        "Erzähl mir etwas über Freie Online-Zeitschriften der DNB",
+        "Informationen zu Freien Online-Zeitschriften der DNB"
+      ],
+      "responses": [
+        "Freie Online-Zeitschriften der Deutschen Nationalbibliothek: Datensätze zu…, Zeitraum: 1900-1913, Aktualisierung: 3x pro Jahr. Beschreibung folgt… Sammlung im Katalog: Kataloglink folgt…",
+        "Freie Online-Zeitschriften der Deutschen Nationalbibliothek umfassen Datensätze zu… aus dem Zeitraum 1900-1913. Die Daten werden 3x pro Jahr aktualisiert. Weitere Informationen sind in der Beschreibung und im Kataloglink verfügbar."
+      ]
+    },
+    {
+      "tag": "Freie Online-Monographien der Deutschen Nationalbibliothek",
+      "patterns": [
+        "Was sind Freie Online-Monographien der DNB?",
+        "Erzähl mir etwas über Freie Online-Monographien der DNB",
+        "Informationen zu Freien Online-Monographien der DNB"
+      ],
+      "responses": [
+        "Freie Online-Monographien der Deutschen Nationalbibliothek: Datensätze zu…, Zeitraum: 1915-1920, Aktualisierung: 3x pro Jahr. Beschreibung folgt… Sammlung im Katalog: Kataloglink folgt…",
+        "Freie Online-Monographien der Deutschen Nationalbibliothek umfassen Datensätze zu… aus dem Zeitraum 1915-1920. Die Daten werden 3x pro Jahr aktualisiert. Weitere Informationen sind in der Beschreibung und im Kataloglink verfügbar."
+      ]
+    },
+    {
+      "tag": "Digitalisierte Inhaltsverzeichnisse der Deutschen Nationalbibliothek",
+      "patterns": [
+        "Was sind Digitalisierte Inhaltsverzeichnisse der DNB?",
+        "Erzähl mir etwas über Digitalisierte Inhaltsverzeichnisse der DNB",
+        "Informationen zu Digitalisierten Inhaltsverzeichnissen der DNB"
+      ],
+      "responses": [
+        "Digitalisierte Inhaltsverzeichnisse der Deutschen Nationalbibliothek: Aktuell stellen wir rund 4,8 Millionen digitalisierte Inhaltsverzeichnisse mit über 9 Millionen Einzelseiten bereit, die über unseren Katalog genutzt werden können und die wir über die Datendienste zur freien Nachnutzung anbieten. S. a. https://www.dnb.de/kataloganreicherung Sammlung im Katalog: Kataloglink folgt…",
+        "Digitalisierte Inhaltsverzeichnisse der Deutschen Nationalbibliothek umfassen aktuell rund 4,8 Millionen digitalisierte Inhaltsverzeichnisse mit über 9 Millionen Einzelseiten. Weitere Informationen sind im Kataloglink verfügbar."
+      ]
+    },
+    {
+      "tag": "Hochschulschriften (HSS)",
+      "patterns": [
+        "Was sind Hochschulschriften (HSS)?",
+        "Erzähl mir etwas über Hochschulschriften (HSS)",
+        "Informationen zu Hochschulschriften (HSS)"
+      ],
+      "responses": [
+        "Hochschulschriften (HSS): Metadaten von mehr als 1.585.000 abgelieferten Hochschulschriften. Sammlung im Katalog: Kataloglink folgt…",
+        "Die Hochschulschriften (HSS) umfassen Metadaten von mehr als 1.585.000 abgelieferten Hochschulschriften. Weitere Informationen sind im Kataloglink verfügbar."
+      ]
+    },
+    {
+      "tag": "Online-Hochschulschriften (Online-HSS)",
+      "patterns": [
+        "Was sind Online-Hochschulschriften (Online-HSS)?",
+        "Erzähl mir etwas über Online-Hochschulschriften (Online-HSS)",
+        "Informationen zu Online-Hochschulschriften (Online-HSS)"
+      ],
+      "responses": [
+        "Online-Hochschulschriften (Online-HSS): Metadaten zu digitalen Objekte. Sammlung im Katalog: Kataloglink folgt…",
+        "Die Online-Hochschulschriften (Online-HSS) umfassen Metadaten zu digitalen Objekte. Weitere Informationen sind im Kataloglink verfügbar."
+      ]
+    },
+     {
+      "tag": "Deutsche Nationalbibliothek: Deutschland Revolution 1918/19",
+      "patterns": [
+        "Was ist Deutsche Nationalbibliothek: Deutschland Revolution 1918/19?",
+        "Erzähl mir etwas über Deutsche Nationalbibliothek: Deutschland Revolution 1918/19",
+        "Informationen zu Deutsche Nationalbibliothek: Deutschland Revolution 1918/19"
+      ],
+      "responses": [
+        "Deutsche Nationalbibliothek: Deutschland Revolution 1918/19: Mehr als 600 digitalisierte Quellen zur deutschen Revolution 1918/1919 und zur Nachkriegszeit. Sammlung im Katalog: https://portal.dnb.de/opac.htm?query=cod%3Dd026+location%3Donlinefree+&method=simpleSearch&cqlMode=true",
+        "Die Deutsche Nationalbibliothek: Deutschland Revolution 1918/19 umfasst mehr als 600 digitalisierte Quellen zur deutschen Revolution 1918/1919 und zur Nachkriegszeit. Weitere Informationen sind im Kataloglink verfügbar."
+      ]
+    },
+    {
+      "tag": "Deutsche Nationalbibliothek: Sammlung Weltkrieg 1914-1918",
+      "patterns": [
+        "Was ist Deutsche Nationalbibliothek: Sammlung Weltkrieg 1914-1918?",
+        "Erzähl mir etwas über Deutsche Nationalbibliothek: Sammlung Weltkrieg 1914-1918",
+        "Informationen zu Deutsche Nationalbibliothek: Sammlung Weltkrieg 1914-1918"
+      ],
+      "responses": [
+        "Deutsche Nationalbibliothek: Sammlung Weltkrieg 1914-1918: Mehr als 3.000 Bücher, Broschüren, Plakate und andere Einblattdrucke zum Weltkrieg 1914-1918 (fortlaufende Ergänzung). Sammlung im Katalog: https://portal.dnb.de/opac/simpleSearch?query=cod%3D2d009&cqlMode=true",
+        "Die Deutsche Nationalbibliothek: Sammlung Weltkrieg 1914-1918 umfasst mehr als 3.000 Bücher, Broschüren, Plakate und andere Einblattdrucke zum Weltkrieg 1914-1918. Weitere Informationen sind im Kataloglink verfügbar."
+      ]
+    }
+  ]
+}
