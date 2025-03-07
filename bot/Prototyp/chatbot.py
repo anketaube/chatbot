@@ -23,7 +23,10 @@ try:
 except LookupError:
     nltk.download('porter')
 
-def load_intents(file_path='intents.json'):
+# Basisverzeichnis des Skripts ermitteln
+BASE_DIR = os.path.dirname(__file__)
+
+def load_intents(file_path=os.path.join(BASE_DIR, 'intents.json')):
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
             intents = json.load(file)
