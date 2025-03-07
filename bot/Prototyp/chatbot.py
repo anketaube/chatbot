@@ -2,6 +2,7 @@ import streamlit as st
 import nltk
 import json
 import random
+import os
 import ssl
 
 # NLTK-Ressourcen herunterladen (falls noch nicht vorhanden)
@@ -23,11 +24,18 @@ except LookupError:
     nltk.download('porter')
 
 def load_intents(file_path='intents.json'):
-    with open(file_path, 'r', encoding='utf-8') as file:
-        intents = json.load(file)
-    return intents
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            intents = json.load(file)
+        return intents
+    except FileNotFoundError:
+        st.error(f"Fehler: Die Datei {file_path} wurde nicht gefunden.")
+        return None  # Rückgabe von None, um Fehler später zu behandeln
 
 def process_input(user_input, intents):
+    if intents is None:
+        return "Fehler beim Laden der Intents."
+
     lemmatizer = nltk.stem.WordNetLemmatizer()
     stemmer = nltk.stem.PorterStemmer()
 
@@ -50,11 +58,14 @@ def main():
 
     intents = load_intents()
 
-    user_input = st.text_input("Du:", "")
+    if intents is not None:  # Überprüfen, ob die Intents erfolgreich geladen wurden
+        user_input = st.text_input("Du:", "")
 
-    if user_input:
-        response = process_input(user_input, intents)
-        st.write("Chatbot:", response)
+        if user_input:
+            response = process_input(user_input, intents)
+            st.write("Chatbot:", response)
+    else:
+        st.error("Die App konnte die Intents nicht laden. Bitte überprüfen Sie die Datei.")
 
 if __name__ == "__main__":
     main()
